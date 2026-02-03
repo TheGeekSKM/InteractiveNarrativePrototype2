@@ -1,0 +1,12 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"README",
+  "name":"README",
+  "openedOnFirstLoad":true,
+  "parent":{
+    "name":"FeedbackSystems",
+    "path":"folders/ImportedAssets/FeedbackSystems.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
