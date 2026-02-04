@@ -49,9 +49,10 @@ else
 oldInteractable = currentInteractable;
 
 
-if (mouse_check_button_pressed(mb_left) and instance_exists(currentInteractable)) 
+if (mouse_check_button_pressed(mb_left)) 
 {
-    currentInteractable.OnMouseLeftClick();
+    clicking = true;
+    if (instance_exists(currentInteractable)) currentInteractable.OnMouseLeftClick();
 }
 
 if (mouse_check_button(mb_left) and instance_exists(currentInteractable))
@@ -61,6 +62,7 @@ if (mouse_check_button(mb_left) and instance_exists(currentInteractable))
 
 if (mouse_check_button_released(mb_left))
 {
+    clicking = false;
      if (instance_exists(currentInteractable)) currentInteractable.OnMouseLeftClickRelease();
 }
 

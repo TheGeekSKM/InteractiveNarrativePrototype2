@@ -22,7 +22,9 @@ currentInteractable = noone;
 oldInteractable = currentInteractable;
 interactableList = ds_list_create();
 currentMouseState = InteractableType.Normal;
+clicking = false;
 
+window_set_cursor(cr_none);
 
 depth = -10000;
 
