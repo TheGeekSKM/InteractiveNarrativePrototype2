@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ImportedAssets","folderPath":"folders/ImportedAssets.yy","name":"ImportedAssets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"CustomCameraSystem","folderPath":"folders/ImportedAssets/CustomCameraSystem.yy","name":"CustomCameraSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"FeedbackSystems","folderPath":"folders/ImportedAssets/FeedbackSystems.yy","name":"FeedbackSystems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -652,6 +653,8 @@
     {"id":{"name":"string_width_scribble","path":"scripts/string_width_scribble/string_width_scribble.yy",},},
     {"id":{"name":"Transitions","path":"scripts/Transitions/Transitions.yy",},},
     {"id":{"name":"widgets_lib","path":"scripts/widgets_lib/widgets_lib.yy",},},
+    {"id":{"name":"seq_Base","path":"sequences/seq_Base/seq_Base.yy",},},
+    {"id":{"name":"seq_MM","path":"sequences/seq_MM/seq_MM.yy",},},
     {"id":{"name":"seq_shake0","path":"sequences/seq_shake0/seq_shake0.yy",},},
     {"id":{"name":"seqTrans_In_CornerSlide","path":"sequences/seqTrans_In_CornerSlide/seqTrans_In_CornerSlide.yy",},},
     {"id":{"name":"seqTrans_Out_CornerSlide","path":"sequences/seqTrans_Out_CornerSlide/seqTrans_Out_CornerSlide.yy",},},

@@ -9,6 +9,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_BASE_interactable","path":"objects/obj_BASE_interactable/obj_BASE_interactable.yy",},"propertyId":{"name":"Name","path":"objects/obj_BASE_interactable/obj_BASE_interactable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_GUI_interactable","path":"objects/obj_GUI_interactable/obj_GUI_interactable.yy",},"propertyId":{"name":"ShouldHighlight","path":"objects/obj_GUI_interactable/obj_GUI_interactable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_BTN_Base","path":"objects/obj_BTN_Base/obj_BTN_Base.yy",},"propertyId":{"name":"TextScale","path":"objects/obj_BTN_Base/obj_BTN_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"MainMenu",
