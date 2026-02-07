@@ -3,7 +3,7 @@ event_inherited();
 
 testCase = currentState == ButtonState.Hover || currentState == ButtonState.Click;
 textPosY = clicking ? y + 5 : y;
-text = testCase ? $"> {Name} <" : $"{Name}";
+text = testCase ? $"[wave]> {Name} <[/wave]" : $"{Name}";
 
 scribble(text)
     .align(fa_center, fa_middle)
