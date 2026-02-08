@@ -12,6 +12,7 @@
     {"name":"inst_8257716","path":"rooms/rmLevel1/rmLevel1.yy",},
     {"name":"inst_86CA0D1","path":"rooms/rmLevel1/rmLevel1.yy",},
     {"name":"inst_6ED34D12","path":"rooms/rmLevel1/rmLevel1.yy",},
+    {"name":"inst_389D7864","path":"rooms/rmLevel1/rmLevel1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -25,6 +26,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2E383E89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E383E89","objectId":{"name":"obj_Eye","path":"objects/obj_Eye/obj_Eye.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":448.0,},
         {"$GMRInstance":"v4","%Name":"inst_8257716","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8257716","objectId":{"name":"obj_L1_Tut","path":"objects/obj_L1_Tut/obj_L1_Tut.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_1329D7E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1329D7E5","objectId":{"name":"obj_PCPlayer","path":"objects/obj_PCPlayer/obj_PCPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
+        {"$GMRInstance":"v4","%Name":"inst_389D7864","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_389D7864","objectId":{"name":"Trigger","path":"objects/Trigger/Trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":65.0,"scaleY":113.0,"x":1088.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_18A5791C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_18A5791C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_TheEye_base","path":"sprites/spr_TheEye_base/spr_TheEye_base.yy",},"x":800.0,"y":448.0,},

@@ -14,6 +14,7 @@ function LoaderSystem() : __loaderBase() constructor
         randomize();
         //instance_create_depth(0, 0, -1600, display_manager);
         instance_create_depth(0, 0, -1600, obj_FeedbackManager);
+        instance_create_depth(0, 0, -1600, obj_DialogueManager);
 
         return true;
     }    

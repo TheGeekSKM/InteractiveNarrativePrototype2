@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Eye",
+  "%Name":"Trigger",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Eye",
+  "name":"Trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level1",
-    "path":"folders/Objects/Level1.yy",
+    "name":"Room",
+    "path":"folders/Objects/_Base/Room.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_TheEye47",
-    "path":"sprites/spr_TheEye47/spr_TheEye47.yy",
+    "name":"Sprite48",
+    "path":"sprites/Sprite48/Sprite48.yy",
   },
   "spriteMaskId":null,
   "visible":true,
