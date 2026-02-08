@@ -35,7 +35,7 @@
   "resourceType":"GMSequence",
   "resourceVersion":"2.0",
   "seqHeight":834.0,
-  "seqWidth":538.0,
+  "seqWidth":669.0,
   "showBackdrop":true,
   "showBackdropImage":false,
   "spriteId":null,

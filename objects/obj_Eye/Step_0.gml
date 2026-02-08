@@ -11,7 +11,7 @@ var clampedDist = min(dist, maxDist);
 eyePosX = eyeX + lengthdir_x(clampedDist, dir);
 eyePosY = eyeY + lengthdir_y(clampedDist, dir);
 
-if (dist <= 64)
+if (dist <= 200)
 {
     playerInRange = true;
 }

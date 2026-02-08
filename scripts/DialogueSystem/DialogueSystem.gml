@@ -5,8 +5,8 @@ function DialogueLine(config = {}) constructor
     color = config[$ "color"] == undefined ? c_white : config[$ "color"];
     speakerOffsetPos = config[$ "speakerOffsetPos"] == undefined ? [0, 0] : config[$ "speakerOffsetPos"];
     preTime = config[$ "preTime"] == undefined ? 0 : config[$ "preTime"];
-    postTime = config[$ "postTime"] == undefined ? 1 : config[$ "postTime"];
-    typeSpeed = config[$ "typeSpeed"] == undefined ? 0.2 : config[$ "typeSpeed"];
+    postTime = config[$ "postTime"] == undefined ? 2.5 : config[$ "postTime"];
+    typeSpeed = config[$ "typeSpeed"] == undefined ? 0.4 : config[$ "typeSpeed"];
     isBlocking = config[$ "isBlocking"] == undefined ? false : config[$ "isBlocking"];
 
     elapsed = 0;

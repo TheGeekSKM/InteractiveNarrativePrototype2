@@ -1,0 +1,1 @@
+Transition(rmMainMenu, seqTrans_FadeOut, seqTrans_FadeIn);

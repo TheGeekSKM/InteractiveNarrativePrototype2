@@ -2,5 +2,5 @@
 event_inherited();
 
 AddButtonFunction(function() {
-    Transition(rmLevel1, seqTrans_FadeOut, seqTrans_FadeIn);
+    Transition(rmAttributeSelection, seqTrans_FadeOut, seqTrans_FadeIn);
 });
