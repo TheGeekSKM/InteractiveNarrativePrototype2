@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_BTN_Mage",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_BASE_interactable","path":"objects/obj_BASE_interactable/obj_BASE_interactable.yy",},"propertyId":{"name":"Name","path":"objects/obj_BASE_interactable/obj_BASE_interactable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Mage",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_BASE_interactable","path":"objects/obj_BASE_interactable/obj_BASE_interactable.yy",},"propertyId":{"name":"Name","path":"objects/obj_BASE_interactable/obj_BASE_interactable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"The Reality Weaver",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_GUI_interactable","path":"objects/obj_GUI_interactable/obj_GUI_interactable.yy",},"propertyId":{"name":"ShouldHighlight","path":"objects/obj_GUI_interactable/obj_GUI_interactable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{

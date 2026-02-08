@@ -666,6 +666,8 @@
     {"id":{"name":"seq_Base","path":"sequences/seq_Base/seq_Base.yy",},},
     {"id":{"name":"seq_MM","path":"sequences/seq_MM/seq_MM.yy",},},
     {"id":{"name":"seq_shake0","path":"sequences/seq_shake0/seq_shake0.yy",},},
+    {"id":{"name":"seqTrans_FadeIn","path":"sequences/seqTrans_FadeIn/seqTrans_FadeIn.yy",},},
+    {"id":{"name":"seqTrans_FadeOut","path":"sequences/seqTrans_FadeOut/seqTrans_FadeOut.yy",},},
     {"id":{"name":"seqTrans_In_CornerSlide","path":"sequences/seqTrans_In_CornerSlide/seqTrans_In_CornerSlide.yy",},},
     {"id":{"name":"seqTrans_Out_CornerSlide","path":"sequences/seqTrans_Out_CornerSlide/seqTrans_Out_CornerSlide.yy",},},
     {"id":{"name":"__shd_scribble_bake_effect_4dir","path":"shaders/__shd_scribble_bake_effect_4dir/__shd_scribble_bake_effect_4dir.yy",},},
