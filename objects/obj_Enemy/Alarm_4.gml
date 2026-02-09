@@ -1,1 +1,0 @@
-Transition(rmWin, seqTrans_FadeOut_Long, seqTrans_FadeIn);

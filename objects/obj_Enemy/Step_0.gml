@@ -10,8 +10,19 @@ image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
 
 if (hp <= 0 && !doOnce) 
 {
-    alarm[4] = 120;
-    instance_destroy();
+    Transition(rmWin, seqTrans_FadeOut_Long2, seqTrans_FadeIn);
+    isDead = true;
+}
+
+if (isDead) return;
+
+if (!doOnce2 && dist < 150)
+{
+    with(obj_gameDialogue)
+    {
+        Scene(scene2);
+    }
+    doOnce2 = true;
 }
 
 if (global.SELECTED_CLASS == CLASSTYPE.Mage) return;
@@ -28,6 +39,7 @@ switch (state)
         break;
     
     case ENEMY_STATE.CHASE:
+        
         var moveDir = dir;
 
         if (dist < safeDistance) {

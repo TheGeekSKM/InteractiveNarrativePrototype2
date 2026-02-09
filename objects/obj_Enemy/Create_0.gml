@@ -21,3 +21,6 @@ image_index = 1;
 image_speed = 0;
 
 doOnce = false;
+doOnce2 = false;
+
+isDead = false;

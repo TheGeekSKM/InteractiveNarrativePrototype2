@@ -105,7 +105,7 @@ function Speak(dialogueStruct, _interrupt = false)
 /// @desc Add an array of dialogue lines to make a scene
 /// @param {array} dialogueArray this is the array of Dialogue Lines
 /// @param {bool} [clearPreviousScene]=false this will clear out the previous scene and start a new one
-function Scene(dialogueArray, clearPreviousScene = false)
+function Scene(dialogueArray, clearPreviousScene = true)
 {
     if (clearPreviousScene)
     {

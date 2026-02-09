@@ -7,13 +7,13 @@ if (global.SELECTED_CLASS == CLASSTYPE.Assassin)
     scene2 = [
         new DialogueLine({
             speaker: obj_Player,
-            text: $"Stop running from this!",
+            text: $"Not very hidden are you?",
             postTime: 2,
             isBlocking: true
         }),
         new DialogueLine({
             speaker: obj_Enemy,
-            text: $"You could just leave me alone!",
+            text: $"Leave me alone!",
             postTime: 2,
             isBlocking: true
         }),
@@ -25,7 +25,7 @@ if (global.SELECTED_CLASS == CLASSTYPE.Assassin)
         }),
         new DialogueLine({
             speaker: obj_Player,
-            text: $"Yeah cuz invading people's homes and stealing their stuff is good for these lands.",
+            text: $"Yeah cuz invading people's homes and looting their stuff is [slant]'good for these lands.'",
             postTime: 2,
             isBlocking: true
         }),
@@ -43,7 +43,7 @@ if (global.SELECTED_CLASS == CLASSTYPE.Assassin)
         }),
         new DialogueLine({
             speaker: obj_Player,
-            text: $"It doesn't matter. You don't need to intend evil to do it.",
+            text: $"Look, it doesn't matter. You made a deal and you need to honor it.",
             postTime: 2,
             isBlocking: true
         }),
@@ -55,43 +55,49 @@ if (global.SELECTED_CLASS == CLASSTYPE.Assassin)
         }),
         new DialogueLine({
             speaker: obj_Enemy,
-            text: $"How dare-",
+            text: $"...Can I have some more time? A head start?",
             postTime: 0,
             isBlocking: true
         }),
         new DialogueLine({
             speaker: obj_Player,
-            text: $"You're a thief. You wander the world thinking that other people's stuff is yours.",
+            text: $"And why would I give you that?",
+            postTime: 2,
+            isBlocking: true
+        }),
+        new DialogueLine({
+            speaker: obj_Enemy,
+            text: $"I...I stopped hiding recently.",
+            postTime: 2,
+            isBlocking: true
+        }),
+        new DialogueLine({
+            speaker: obj_Enemy,
+            text: $"I have friends. I have someone I love, who loves me back.",
+            postTime: 2,
+            isBlocking: true
+        }),
+        new DialogueLine({
+            speaker: obj_Enemy,
+            text: $"The light doesn't burn. I thought it would, but no.",
+            postTime: 2,
+            isBlocking: true
+        }),
+        new DialogueLine({
+            speaker: obj_Enemy,
+            text: $"I think...I feel happy, right now.",
+            postTime: 2,
+            isBlocking: true
+        }),
+        new DialogueLine({
+            speaker: obj_Enemy,
+            text: $"Please?",
             postTime: 2,
             isBlocking: true
         }),
         new DialogueLine({
             speaker: obj_Player,
-            text: $"It gives you some sick pleasure doesn't it? Stealing and taking?",
-            postTime: 2,
-            isBlocking: true
-        }),
-        new DialogueLine({
-            speaker: obj_Enemy,
-            text: $"As if you can judge me! All you do is murder!",
-            postTime: 2,
-            isBlocking: true
-        }),
-        new DialogueLine({
-            speaker: obj_Enemy,
-            text: $"Your gloves are caked with blood from across generations!",
-            postTime: 2,
-            isBlocking: true
-        }),
-        new DialogueLine({
-            speaker: obj_Enemy,
-            text: $"You and your boss are vile cowards. You hide from everything, believing that the mystery gives you power.",
-            postTime: 2,
-            isBlocking: true
-        }),
-        new DialogueLine({
-            speaker: obj_Player,
-            text: $"...touche...",
+            text: $"...No, I'm sorry.",
             postTime: 2,
             isBlocking: true
         }),
