@@ -11,7 +11,7 @@ image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
 if (hp <= 0 && !doOnce) 
 {
     Transition(rmWin, seqTrans_FadeOut_Long2, seqTrans_FadeIn);
-    isDead = true;
+    instance_destroy()
 }
 
 if (isDead) return;
