@@ -40,7 +40,7 @@ function Activate(x_pos, y_pos, config) {
     
     life_timer = 0;
     // Access properties directly from the config struct (which now uses the new naming)
-    life_duration = config.lifeFrames;
+    life_duration = config[$ "lifeFrames"] == undefined ? 60 : config[$ "lifeFrames"];
 
     cfg_sprite_index = config.spriteIndex;
     cfg_color_start = config.colorStart;

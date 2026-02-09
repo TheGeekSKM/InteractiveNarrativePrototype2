@@ -5,3 +5,7 @@ if (ds_list_size(poolFracturePiecesInactive) > 0) {
                     ", Exists: " + string(instance_exists(test_inst)) +
                     ", Object: " + (instance_exists(test_inst) ? object_get_name(test_inst.object_index) : "N/A"));
 }
+
+CreateParticlePool();
+CreateGlyphPool();
+CreateFracturePool();

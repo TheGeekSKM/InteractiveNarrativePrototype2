@@ -14,6 +14,7 @@ if (_dash_pressed && can_dash)
     var _dash_power = 15;
     
     var _dash_dir = (_input_mag > 0) ? point_direction(0, 0, _h_input, _v_input) : image_angle;
+    _dash_dir = (dash_towards_mouse) ? point_direction(x, y, mouse_x, mouse_y) : _dash_dir;
     
     dash_h = lengthdir_x(_dash_power, _dash_dir);
     dash_v = lengthdir_y(_dash_power, _dash_dir);
@@ -46,6 +47,16 @@ if (is_invincible)
 var _final_h = (_h_input * move_speed) + dash_h + recoil_h;
 var _final_v = (_v_input * move_speed) + dash_v + recoil_v;
 
+if (_final_h != 0 || _final_v != 0)
+{
+    image_speed = 1;
+}
+else
+{
+    image_speed = 0;
+    image_index = 1;
+}
+
 move_and_collide(_final_h, _final_v, obj_wall);
 
 dash_h = lerp(dash_h, 0, dash_decay);
@@ -54,3 +65,22 @@ recoil_h = lerp(recoil_h, 0, recoil_decay);
 recoil_v = lerp(recoil_v, 0, recoil_decay);
 
 image_angle = point_direction(x, y, mouse_x, mouse_y);
+
+
+if (mouse_check_button_pressed(mb_left))
+{
+    echo("shoot")
+    instance_create_depth(x, y, depth - 1, obj_PlayerBullet, {
+        directionVal: point_direction(x, y, mouse_x, mouse_y),
+        speedVal: 12,
+        damage: 2,
+        owner: id,
+        target: obj_Enemy
+    });
+}
+
+if (hp <= 0 && !doOnce) 
+{
+    Transition(rmGame, seqTrans_FadeOut_Long, seqTrans_FadeIn);
+    instance_destroy();
+}

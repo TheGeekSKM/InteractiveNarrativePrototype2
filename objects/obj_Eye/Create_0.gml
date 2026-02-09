@@ -255,7 +255,7 @@ if (global.SELECTED_CLASS == CLASSTYPE.Mage)
             isBlocking: true,
         }),
         new DialogueLine({
-            text: "Ok...Killing the [c_red]Demon Lord[/c] won't make you a normal person.",
+            text: "Really?...Just so you're aware, killing the [c_red]Demon Lord[/c] won't change you.",
             speaker: obj_Eye,
             speakerOffsetPos: [0, -32],
             isBlocking: true,

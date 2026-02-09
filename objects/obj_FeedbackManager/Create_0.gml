@@ -6,18 +6,21 @@ poolParticlesInactive = ds_list_create();
 poolParticlesAll = ds_list_create(); 
 maxParticles = 200; 
 
-if (!layer_exists("Feedback"))
+function CreateParticlePool()
 {
-    layer_create(-50, "Feedback");
-}
-
-for (var i = 0; i < maxParticles; i++) {
-    if (!layer_exists("Instances")) layer_create(-50, "Instances");
+    if (!layer_exists("Feedback"))
+    {
+        layer_create(-50, "Feedback");
+    }
     
-    var inst = instance_create_depth(0, 0, -5, obj_PooledParticle); 
-    ds_list_add(poolParticlesAll, inst);
-    ds_list_add(poolParticlesInactive, inst);
-    instance_deactivate_object(inst); 
+    for (var i = 0; i < maxParticles; i++) {
+        if (!layer_exists("Instances")) layer_create(-50, "Instances");
+        
+        var inst = instance_create_depth(0, 0, -5, obj_PooledParticle); 
+        ds_list_add(poolParticlesAll, inst);
+        ds_list_add(poolParticlesInactive, inst);
+        instance_deactivate_object(inst); 
+    }
 }
 
 // --- Glyph Pool ---
@@ -25,13 +28,17 @@ poolGlyphsInactive = ds_list_create();
 poolGlyphsAll = ds_list_create(); 
 maxGlyphs = 50; 
 
-for (var i = 0; i < maxGlyphs; i++) {
-    if (!layer_exists("Instances")) layer_create(-50, "Instances");    
-    
-    var inst = instance_create_depth(0, 0, -5, obj_PooledGlyph); 
-    ds_list_add(poolGlyphsAll, inst);
-    ds_list_add(poolGlyphsInactive, inst);
-    instance_deactivate_object(inst);
+function CreateGlyphPool()
+{
+    for (var i = 0; i < maxGlyphs; i++) 
+    {
+        if (!layer_exists("Instances")) layer_create(-50, "Instances");    
+        
+        var inst = instance_create_depth(0, 0, -5, obj_PooledGlyph); 
+        ds_list_add(poolGlyphsAll, inst);
+        ds_list_add(poolGlyphsInactive, inst);
+        instance_deactivate_object(inst);
+    }
 }
 
 // --- Fracture Pool ---
@@ -39,12 +46,16 @@ poolFracturePiecesInactive = ds_list_create();
 poolFracturePiecesAll = ds_list_create();
 maxFracturePieces = 100; // Adjust as needed
 
-for (var i = 0; i < maxFracturePieces; i++) {
-    
-    var inst = instance_create_depth(0, 0, -5, obj_FracturePiece); // Ensure obj_FracturePiece exists
-    ds_list_add(poolFracturePiecesAll, inst);
-    ds_list_add(poolFracturePiecesInactive, inst);
-    instance_deactivate_object(inst);
+function CreateFracturePool()
+{
+    for (var i = 0; i < maxFracturePieces; i++) 
+    {
+        
+        var inst = instance_create_depth(0, 0, -5, obj_FracturePiece); // Ensure obj_FracturePiece exists
+        ds_list_add(poolFracturePiecesAll, inst);
+        ds_list_add(poolFracturePiecesInactive, inst);
+        instance_deactivate_object(inst);
+    }
 }
 
 show_debug_message("FeedbackManager initialized with pools.");

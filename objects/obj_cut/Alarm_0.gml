@@ -1,0 +1,1 @@
+Transition(rmGame, seqTrans_FadeOut, seqTrans_FadeIn);

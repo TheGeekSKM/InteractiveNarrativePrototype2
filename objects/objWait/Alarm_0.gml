@@ -1,1 +1,1 @@
-Transition(rmMainMenu, seqTrans_FadeOut, seqTrans_FadeIn);
+Transition(rmDialogue, seqTrans_FadeOut, seqTrans_FadeIn);

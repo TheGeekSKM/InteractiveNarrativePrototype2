@@ -2,6 +2,7 @@ if (array_length(activeLines) <= 0) return;
 
 for (var i = 0; i < array_length(activeLines); i++)
 {
+    var doOnce = false;
     var inst = activeLines[i];
 
     if (i > 0) {
@@ -30,7 +31,8 @@ for (var i = 0; i < array_length(activeLines); i++)
 
         inst.scribbleElement = scribble(inst.text)
             .starting_format("Monogram", c_white)
-            .wrap(240)
+            .wrap(min(240 * inst.size, room_width - 20))
+            .scale(inst.size)
             .align(fa_center, fa_bottom);
     }
 
@@ -41,9 +43,15 @@ for (var i = 0; i < array_length(activeLines); i++)
 
     if (inst.finishedTyping)
     {
+        if (!doOnce && inst.callbackAtEnd != undefined)
+        {
+            callbackAtEnd();
+            doOnce = true;
+        }
         inst.postTime -= 1 / game_get_speed(gamespeed_fps);
         if (inst.postTime <= 0)
         {
+            
             array_delete(activeLines, i, 1);
             i--;
         }

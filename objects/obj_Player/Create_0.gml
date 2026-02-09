@@ -13,3 +13,14 @@ dash_cooldown_time = 30;
 
 is_invincible = false;
 dash_invincibility_threshold = 2;
+
+dash_towards_mouse = false;
+
+image_index = 1;
+image_speed = 0;
+
+
+shoot_time = 60;
+
+hp = 10;
+doOnce = false;

@@ -8,11 +8,14 @@ function DialogueLine(config = {}) constructor
     postTime = config[$ "postTime"] == undefined ? 2.5 : config[$ "postTime"];
     typeSpeed = config[$ "typeSpeed"] == undefined ? 0.4 : config[$ "typeSpeed"];
     isBlocking = config[$ "isBlocking"] == undefined ? false : config[$ "isBlocking"];
+    size = config[$ "size"] == undefined ? 1 : config[$ "size"];
 
     elapsed = 0;
     finishedTyping = false;
     scribbleElement = undefined;
     scribbleTypist = undefined;
+
+    callbackAtEnd = undefined;
 
     /// This function sets the text
     /// @param {string} newText - The text to display
